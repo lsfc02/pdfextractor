@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pytesseract
+pillow
+pdfplumber
+pypdf2
+openai==0.28
+python-multipart
+python-dotenv

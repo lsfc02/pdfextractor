@@ -5,7 +5,5 @@ services:
     container_name: pdfextractor
     ports:
       - "8089:8089"
-    volumes:
-      - .:/app
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
